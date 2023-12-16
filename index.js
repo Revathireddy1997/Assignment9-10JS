@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initial brush settings
     var brushColor = '#000000'; // default to black
     var brushSize = 5;
-
-    // Event listeners
     drawingCanvas.addEventListener('mousedown', startDrawing);
     drawingCanvas.addEventListener('mouseup', stopDrawing);
     drawingCanvas.addEventListener('mousemove', drawOnCanvas);
